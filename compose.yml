@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  mongodb:
+    container_name: go-api-db
+    image: mongo:latest
+    volumes:
+      - go-volume:/data/db:rw
+    ports:
+      - 27017:27017
+
+volumes:
+  go-volume:
