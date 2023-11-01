@@ -1,4 +1,4 @@
-# Kvanttori hackahton project
+# Hackahton project
 
 ## Agenda
 Create basic CRUD-api for TODO app
