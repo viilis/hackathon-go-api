@@ -9,10 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-var (
-	DbRef *mongo.Database
-	MONGO_URI = "mongodb://localhost:27017" //dev
-)
+var DbRef *mongo.Database
 
 func InitDb() {
 	log.Println("Starting database")
