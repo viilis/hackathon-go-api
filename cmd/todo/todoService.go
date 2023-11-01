@@ -1,4 +1,0 @@
-
-func FindAllTodos() db.Todo {
-
-}
